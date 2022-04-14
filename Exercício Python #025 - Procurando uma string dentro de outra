@@ -1,0 +1,5 @@
+nome = input('Coloque um nome:')
+sn = nome.upper()
+sn = str('SILVA' in sn)
+sn = sn.replace('True', '').replace('False', 'não ')
+print(f'O nome digitado {sn}tem "Silva"')
